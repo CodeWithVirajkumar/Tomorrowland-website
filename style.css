@@ -1,0 +1,724 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: Europa, sans-serif;
+}
+body {
+  background-image: url(tomorrowland.jpg);
+  background-repeat: no-repeat;
+  background-size: 1353px 642px;
+  background-attachment: fixed;
+}
+html,body{
+  overflow-x: hidden;
+}
+
+.navbar {
+  position: fixed;
+  z-index: 3;
+  background-color: rgba(0, 0, 0, 0.45);
+  height: 13%;
+  width: 100%;
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bolder;
+}
+
+#user {
+  position: absolute;
+  left: 1150px;
+  height: 40%;
+  width: 10%;
+  border-radius: 17px;
+  border: 2px solid transparent;
+  color: white;
+  font-weight: bold;
+  background-color: rgba(112, 112, 112, 0.37);
+  cursor: pointer;
+  transition: border 0.3s ease-out;
+}
+#user:hover {
+  border: 2px solid white;
+} 
+#icon {
+  padding-right: 10px;
+}
+
+p {
+  padding-left: 3%;
+  font-weight: 600;
+}
+
+a {
+  color: white;
+  text-decoration: underline;
+}
+#toplink{
+  text-decoration: none;
+}
+
+#logo {
+  position: absolute;
+  right: 1270px;
+}
+
+#highlights{
+  position: absolute;
+  top: 1110px;
+  left: 65px;
+  font-weight: bolder;
+  font-size: 40px;
+  color: white;
+}
+.trans {
+  position: absolute;
+  top: 430px;
+  height: 3000px;
+  width: 1348px;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+}
+#zero {
+  position: absolute;
+  left: 370px;
+  top: 225px;
+  font-size: 60px;
+  color: white;
+}
+#first {
+  position: absolute;
+  left: 355px;
+  top: 270px;
+  font-size: 65px;
+  color: white;
+}
+#second {
+  position: absolute;
+  left: 540px;
+  top: 357px;
+  font-size: medium;
+  color: white;
+}
+#third {
+  position: absolute;
+  left: 470px;
+  top: 380px;
+  font-size: medium;
+  color: white;
+}
+#content{
+  padding-top: 200px;
+  color: white;
+}
+#btnone {
+  position: absolute;
+  top: 430px;
+  left: 490px;
+  height: 8%;
+  width: 15%;
+  border-radius: 25px;
+  border: 2px solid white;
+  color: white;
+  font-weight: bold;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 0.4s ease-out;
+}
+#btnone:hover{
+  background-color: white;
+  color: black;
+}
+#btntwo {
+  position: absolute;
+  top: 430px;
+  left: 720px;
+  height: 8%;
+  width: 11%;
+  border-radius: 25px;
+  border: 2px solid white;
+  color: white;
+  font-weight: bold;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 0.4s ease-out;
+}
+#btntwo:hover{
+  background-color: white;
+  color: black;
+}
+#btnthree {
+  position: absolute;
+  z-index: 2;
+  top: 575px;
+  left: 1015px;
+  height: 6%;
+  width: 3%;
+  border-radius: 25px;
+  border: 2px solid white;
+  color: white;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: background-color 0.4s ease-out;
+}
+#btnthree:hover{
+  background-color: white;
+  color: black;
+}
+
+#btnfour {
+  position: absolute;
+  z-index: 2;
+  top: 575px;
+  left: 1075px;
+  height: 6%;
+  width: 3%;
+  border-radius: 25px;
+  border: 2px solid white;
+  color: white;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: background-color 0.4s ease-out;
+}
+#btnfour:hover{
+  background-color: white;
+  color: black;
+}
+#btnfive {
+  position: absolute;
+  z-index: 2;
+  top: 568px;
+  left: 1135px;
+  height: 7.5%;
+  width: 11%;
+  border-radius: 25px;
+  border: 2px solid white;
+  color: white;
+  font-weight: bolder;
+  background-color: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: background-color 0.4s ease-out;
+}
+#btnfive:hover{
+  background-color: white;
+  color: black;
+}
+#oneone {
+  position: absolute;
+  left: 25px;
+  top: 545px;
+  z-index: 1;
+  color: white;
+  font-weight: bolder;
+  font-size: 40px;
+}
+#twotwo {
+  position: absolute;
+  left: 25px;
+  top: 590px;
+  z-index: 1;
+  color: white;
+  font-weight: bolder;
+  font-size: 40px;
+}
+#iconone {
+  color: white;
+  font-size: 12px;
+  padding-right: 10px;
+}
+#icontwo {
+  position: absolute;
+  bottom: 18px;
+  font-size: 15px;
+  padding-left: 10px;
+  transform: rotate(45deg);
+}
+
+
+#tomorrowlandimg{
+  position: absolute;
+  bottom: 170px;
+  z-index: -3;
+  height: 640px;
+  width: 1350px;
+  
+}
+
+#logotwo{
+  position: absolute;
+  top: 1893px;
+  left: 630px;
+  height: 100px;
+}
+#word{
+  position: absolute;
+  color: white;
+  top: 1980px;
+  left: 600px;
+  font-size: 30px;
+}
+.social{
+  color: white;
+  position: absolute;
+  top: 2060px;
+  left: 553px;
+  font-size: 25px;
+  gap: 23px;
+  display: flex;
+}
+
+.tables{
+  position: absolute;
+  top: 2160px;
+}
+.tableone{
+  position: absolute;
+  left: 80px;
+  font-size: 13px;
+  color: #d9d9d9;
+  text-align: left;
+  width: 1250px;
+}
+.tableone th{
+  padding-bottom: 20px;
+  color: rgb(255, 255, 255);
+
+}
+.tableone td{
+font-size: 13px;
+padding-bottom: 20px;
+  color: #d9d9d9;
+}
+.tabletwo{
+  position: absolute;
+  top: 300px;
+  left: 77px;
+  right: px;
+  text-align: left;
+  width: 1230px;
+}
+.tabletwo th{
+  color: white;
+  font-size: 13px;
+  padding-bottom: 20px;
+}
+
+.tabletwo td{
+  column-width: 1000px;
+  padding-bottom: 20px;
+  font-size: 13px;
+  color: #d9d9d9;
+}
+#apple{
+  position: absolute;
+  top: 2805px;
+  left: 513px;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 12px;
+  height: 50px;
+  width: 150px;
+  color: white;
+}
+#apps{
+  width: 150px;
+  position: absolute;
+  top: 2750px;
+  left: 600px;
+  color: rgb(203, 203, 203);
+  font-size: 13px;
+}
+#android{
+  position: absolute;
+  top: 2805px;
+  left: 680px;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 12px;
+  height: 50px;
+  width: 150px;
+  color: white;
+}
+#iphone{
+  font-size: 30px;
+  position: absolute;
+  top: 2813px;
+  left: 525px;
+  color: white;
+
+}
+#google{
+  font-size: 30px;
+  position: absolute;
+  top: 2813px;
+  left: 690px;
+  color: white;
+}
+#lastline{
+  width: 500px;
+  position: absolute;
+  top: 2900px;
+  left: 470px;
+  color: rgb(203, 203, 203);
+  font-size: 12px;
+}
+#linka{
+  text-decoration: underline;
+  color: rgb(203, 203, 203);
+}
+#headlinks{
+  text-decoration: none;
+}
+#headlinks:hover{
+  text-decoration: underline;
+}
+#pngone{
+  width: 411px;
+  transform: rotate(90deg);
+  position: relative;
+  z-index: -1;
+  bottom: 1100px;
+}
+#pngtwo{
+  width: 411px;
+  transform: rotate(270deg);
+  position: relative;
+  z-index: -1;
+  bottom: 720px;
+}
+.foter{
+  position: absolute;
+  top: 400px;
+}
+.mainimg::-webkit-scrollbar{
+  display: none;
+}
+.mainimg{
+  width: 100%;
+  position: absolute;
+  top: 663px;
+  left: px;
+  z-index: 2;
+  display: flex;
+  gap: 30px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+
+.mainimgone{
+  background-image: url(dvlm.jpg);
+  background-position: center;
+  background-position: -30px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  min-width: 300px;
+  box-shadow: 0px 0px 40px black;
+  border-radius: 15px;
+}
+.mainimgtwo{
+  background-image: url(david.jpg);
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  min-width: 300px;
+  box-shadow: 0px 0px 40px black;
+  border-radius: 15px;
+}
+.mainimgthree{
+  background-image: url(mello.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  min-width: 300px;
+  box-shadow: 0px 0px 40px black;
+  border-radius: 15px;
+}
+.mainimgfour{
+  background-image: url(sefa.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  min-width: 300px;
+  box-shadow: 0px 0px 40px black;
+  border-radius: 15px;
+}
+.mainimgfive{
+  background-image: url(martin\ garrix.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  min-width: 300px;
+  box-shadow: 0px 0px 40px black;
+  border-radius: 15px;
+}
+.mainimgsix{
+  background-image: url(sub\ zero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  min-width: 300px;
+  box-shadow: 0px 0px 40px black;
+  border-radius: 15px;
+}
+#dvlm{
+  color: white;
+  position: relative;
+  top: 160px;
+  left: 15px;
+  font-size: 20px; 
+}
+#david{
+  color: white;
+  position: relative;
+  top: 160px;
+  left: 15px;
+  font-size: 20px; 
+}
+#marsh{
+  color: white;
+  position: relative;
+  top: 160px;
+  left: 15px;
+  font-size: 20px; 
+
+}
+#sefa{
+  color: white;
+  position: relative;
+  top: 160px;
+  left: 15px;
+  font-size: 20px; 
+
+}
+#martin{
+  color: white;
+  position: relative;
+  top: 160px;
+  left: 15px;
+  font-size: 20px; 
+
+}
+#sub{
+  color: white;
+  position: relative;
+  top: 160px;
+  left: 15px;
+  font-size: 20px; 
+
+}
+#calendar1{
+  color: white;
+  font-size: 18px;
+  position: relative;
+  z-index: 2;
+  top: 184px;
+  left: 32px;
+}
+#location1{
+  color: white;
+  font-size: 17px;
+  position: relative;
+  z-index: 2;
+  top: 213px;
+  left: 14px;
+}
+#calendar2{
+  color: white;
+  font-size: 18px;
+  position: relative;
+  z-index: 2;
+  top: 184px;
+  left: 32px;
+}
+#location2{
+  color: white;
+  font-size: 17px;
+  position: relative;
+  z-index: 2;
+  top: 213px;
+  left: 14px;
+}
+#calendar3{
+  color: white;
+  font-size: 18px;
+  position: relative;
+  z-index: 2;
+  top: 184px;
+  left: 32px;
+}
+#location3{
+  color: white;
+  font-size: 17px;
+  position: relative;
+  z-index: 2;
+  top: 213px;
+  left: 14px;
+}
+#calendar4{
+  color: white;
+  font-size: 18px;
+  position: relative;
+  z-index: 2;
+  top: 184px;
+  left: 32px;
+}
+#location4{
+  color: white;
+  font-size: 17px;
+  position: relative;
+  z-index: 2;
+  top: 213px;
+  left: 14px;
+}
+#calendar5{
+  color: white;
+  font-size: 18px;
+  position: relative;
+  z-index: 2;
+  top: 184px;
+  left: 32px;
+}
+#location5{
+  color: white;
+  font-size: 17px;
+  position: relative;
+  z-index: 2;
+  top: 213px;
+  left: 14px;
+}
+#calendar6{
+  color: white;
+  font-size: 18px;
+  position: relative;
+  z-index: 2;
+  top: 184px;
+  left: 32px;
+}
+#location6{
+  color: white;
+  font-size: 17px;
+  position: relative;
+  z-index: 2;
+  top: 213px;
+  left: 14px;
+}
+.largeimg{
+  position: absolute;
+  top: 1000px;
+}
+
+#sectionone{
+  
+  background-size: 112%;
+  background-repeat: no-repeat;
+  background-position-x: -100px;
+  position: relative;
+  left: 65px;
+  bottom: 250px;
+  background-color: white;
+  height: 435px;
+  width: 595px;
+  border-radius: 15px;
+  transition: background-size 0.4s ease-out;
+}
+#sectionone:hover{
+  background-size: 120%;
+}
+#sectiontwo{
+  background-size: 130%;
+  background-repeat: no-repeat;
+  background-position-x: -170px;
+  position: relative;
+  left: 690px;
+  bottom: 685px;
+  background-color: white;
+  height: 435px;
+  width: 595px;
+  border-radius: 15px;
+  transition: background-size 0.4s ease-out;
+}
+#sectiontwo:hover{
+  background-size: 140%;
+}
+#sectionthree{
+  background-size: 112%;
+  background-repeat: no-repeat;
+  background-position-x: -150px;
+  position: relative;
+  bottom: 655px;
+  left: 65px;
+  background-color: white;
+  height: 435px;
+  width: 595px;
+  border-radius: 15px;
+  transition: background-size 0.4s ease-out;
+}
+#sectionthree:hover{
+  background-size: 120%;
+}
+#sectionfour{
+  background-size: 82%;
+  background-repeat: no-repeat;
+  background-position-y: -40px;
+  background-position-x: -70px;
+  position: absolute;
+  bottom: 652px;
+  left: 693px;
+  background-color: white;
+  height: 435px;
+  width: 595px;
+  border-radius: 15px;
+  transition: background-size 0.4s ease-out;
+}
+#sectionfour:hover{
+  background-size: 90%;
+}
+
+#gradient1{
+  position: relative;
+  z-index: 3;
+  left: 295px;
+  background: linear-gradient(to left, black, black, black, transparent);
+  height: 435px;
+  width: 300px;
+  border-radius: 15px;
+}
+#gradient2{
+  position: relative;
+  z-index: 3;
+  left: 295px;
+  background: linear-gradient(to left, black, black, black, transparent);
+  height: 435px;
+  width: 300px;
+  border-radius: 15px;
+}
+#gradient3{
+  position: relative;
+  z-index: 3;
+  left: 295px;
+  background: linear-gradient(to left, black, black, black, transparent);
+  height: 435px;
+  width: 300px;
+  border-radius: 15px;
+}
+#gradient4{
+  position: relative;
+  z-index: 3;
+  left: 295px;
+  background: linear-gradient(to left, black, black, black, transparent);
+  height: 435px;
+  width: 300px;
+  border-radius: 15px;
+}
+
